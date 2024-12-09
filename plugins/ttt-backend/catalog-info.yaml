@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ttt
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: dzemanov/test-plugin-frontend5
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/dzemanov
